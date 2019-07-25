@@ -1,0 +1,1 @@
+export { loadNewCaptcha } from './loadNewCaptcha';

@@ -1,0 +1,51 @@
+.CaptchaBox {
+    width: 290px;
+    height: 119px;
+    border: 1px solid black;
+    background: #e0dcdc;
+    border-radius: 5px;
+}
+
+.CaptchaImage {
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: 11px;
+}
+
+.ReloadWrapper {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 17px;
+    margin-left: 6px;
+}
+
+.InputBoxContainer {
+    margin-left: 11px;
+    margin-top: 8px;
+}
+
+.ErrorBox {
+    width: 259px;
+    height: 20px;
+    border: 1px solid red;
+    background: #f3dcdc;
+}
+
+.ErrorText {
+    margin-left: 7px;
+}
+
+.MessageBox {
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.SuccessMsg {
+    color: green;
+    font-weight: bold;
+}
+
+.ErrorMsg {
+    color: red;
+    font-weight: bold;
+}
