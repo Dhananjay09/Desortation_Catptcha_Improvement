@@ -1,4 +1,21 @@
-import Captcha from './lib/Captcha';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
-export default Captcha;
-export { Captcha };
+import CaptchaTest from './CaptchaTest';
+
+class App extends Component {
+  onChange(value) {
+    console.log(value);
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <CaptchaTest />
+      </div>
+    );
+  }
+}
+
+const rootElement = document.getElementById('root');
+ReactDOM.render(<App />, rootElement);
